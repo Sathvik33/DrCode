@@ -17,8 +17,11 @@ def get_llm():
     return ChatOllama(
         model="qwen2.5:7b",
         temperature=0.1,
-        num_predict=-1,
+        num_predict=8192,
+        num_ctx=8192,
+        max_tokens=8192,
         format="json",
+        timeout=600.0,
     )
 
 

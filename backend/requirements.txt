@@ -9,3 +9,6 @@ sentence-transformers
 chromadb
 numpy
 fpdf2
+streamlit
+pyTelegramBotAPI
+python-docx

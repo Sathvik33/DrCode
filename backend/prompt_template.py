@@ -128,4 +128,6 @@ RULES:
 - Avoid generic advice
 - Be honest about weaknesses — the user needs to know what to fix
 - Output ONLY valid JSON, nothing else
+
+CRITICAL COMMAND: You must NOT stop generating until the entire JSON object is complete and valid. Do not omit any sections. Ensure all braces and brackets are properly closed.
 """

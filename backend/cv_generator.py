@@ -104,6 +104,9 @@ def get_cv_llm():
         model="qwen2.5:7b",
         temperature=0.3,
         num_predict=8192,
+        num_ctx=8192,
+        max_tokens=8192,
+        timeout=600.0,
     )
 
 
